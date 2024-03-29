@@ -12,13 +12,16 @@ git clone https://github.com/kaizheng-academic/TopoLa
 Installation has been tested in a Windows platform.
 
 # File Description
+* degree_TopoSimilarity: "Comparing the two energy distance measures" in the main test.
 * link_prediction: "link prediction in complex networks" in the main test;
 * singlecell: "Single-cell clustering via single-cell RNA-seq data" in the main test;
-* HiC: "Domain identification via Hi-C networks;
-* SpeciesIdentification: Fine-grained species identification;
-* low-rank: Using NR for enhancing low-rank matrix;
-* fastNR: disease ontology similarity matrix;
-* didr: disease-drug association matrix.
+* HiC: "Domain identification via Hi-C networks“ in the main test;
+* SpeciesIdentification: "Fine-grained species identification" in the main test;
+* low-rank: "Using NR for enhancing low-rank matrix" in the main test;
+* RKD: "Knowledge distillation" in the main test;
+* fastNR: "Comparison of performance between NR and fastNR" in the supplementary materials;
+
+
 
 # Functions Description
 * ```LRTM.m```: this function can implement the LRTM algorithm;
