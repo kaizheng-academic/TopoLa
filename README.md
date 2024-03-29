@@ -36,13 +36,13 @@ matlab -r TopoSimilarity_Dtopola
 ```
 matlab -r demo
 ```
-**Single-cell clustering via single-cell RNA-seq data**: Identification of cell types using single-cell RNA-seq data
+**Single-cell clustering via single-cell RNA-seq data**: Identification of cell types using single-cell RNA-seq data (Please decompress the file before executing)
 
 ```
 matlab -r demo 
 ```
 
-**Domain identification via Hi-C networks**: Performance evaluation of boundary detection
+**Domain identification via Hi-C networks**: Performance evaluation of boundary detection (Please decompress the file before executing)
 ```
 matlab -r demo
 ```
