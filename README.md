@@ -11,13 +11,13 @@ git clone https://github.com/kaizheng-academic/TopoLa
 ```
 Installation has been tested in a Windows platform.
 
-# Dataset Description
-* Wrname: the DrugBank IDs of drugs;
-* Wdname: the OMIM IDs of diseases;
-* drug_AtcS: drug's ATC code similarity matrix;
-* drug_TargetS: drug's target profile similarity matrix;
-* disease_PhS: disease phenotype similarity matrix;
-* disease_DoS: disease ontology similarity matrix;
+# File Description
+* link_prediction: "link prediction in complex networks" in the main test;
+* singlecell: "Single-cell clustering via single-cell RNA-seq data" in the main test;
+* HiC: "Domain identification via Hi-C networks;
+* SpeciesIdentification: Fine-grained species identification;
+* low-rank: Using NR for enhancing low-rank matrix;
+* fastNR: disease ontology similarity matrix;
 * didr: disease-drug association matrix.
 
 # Functions Description
