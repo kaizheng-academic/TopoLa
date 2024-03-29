@@ -40,14 +40,11 @@ matlab -r demo
 
 ```
 matlab -r demo 
-
 ```
 
 **Domain identification via Hi-C networks**: Performance evaluation of boundary detection
 ```
 matlab -r demo
-
-
 ```
 **Fine-grained species identification**: Average species identification accuracy.
 ```
@@ -57,7 +54,6 @@ matlab -r demo
 **Using NR for enhancing low-rank matrix**: Utilizing low-rank matrix completion for movie recommendations and multi-label learning. 
 ```
 matlab -r demo_Movielens
-
 matlab -r demo_Multi_Label 
 ```
 
