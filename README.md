@@ -19,59 +19,91 @@ Installation has been tested in a Windows platform.
 * SpeciesIdentification: "Fine-grained species identification" in the main test;
 * low-rank: "Using NR for enhancing low-rank matrix" in the main test;
 * RKD: "Knowledge distillation" in the main test;
+* MoCo: "Contrastive learning" in the main test;
 * fastNR: "Comparison of performance between NR and fastNR" in the supplementary materials;
 
 
 
-# Functions Description
-* ```LRTM.m```: this function can implement the LRTM algorithm;
-
-
 # Instructions
-We provide detailed step-by-step instructions for running LRTM model.
+We provide the experimental code and execution steps involved in each section.
 
-**Step 1**: add datasets\functions paths
+**Comparing the two energy distance measures**: The properties of energy distance measures.
 ```
-addpath('Datasets');
-addpath('Functions');
+matlab -r Neighbor_Dtopola
+matlab -r TopoSimilarity_Dtopola
 ```
-**Step 2**: load datasets with association matirx and similarity matrices
+**link prediction in complex networks**: The performance of TRWR in link prediction across nine distinct complex networks.
 ```
-load Fdataset_ms
-A_DR = didr;
-R = (drug_AtcS+drug_TargetS)/2;
-D = (disease_PhS+disease_DoS)/2;
+matlab -r demo
 ```
-**Step 3**: parameter Settings
+**Single-cell clustering via single-cell RNA-seq data**: Identification of cell types using single-cell RNA-seq data
 
-The hyper-parameters are fixed.
 ```
-alpha = 15; 
-beta = 20; 
+matlab -r demo 
 
 ```
 
-**Step 4**: run the LRTM algorithm
+**Domain identification via Hi-C networks**: Performance evaluation of boundary detection
 ```
-A_recovery = LRTM(A_DR',alpha,beta, R, D);
+matlab -r demo
+
+
+```
+**Fine-grained species identification**: Average species identification accuracy.
+```
+matlab -r demo 
 ```
 
-# A Quickstart Guide
-Users can immediately start playing with LRTM running ```Demo_LRTM.m``` in matlab.
-* ```Demo_LRTM.m```: it demonstrates a process of predicting drug-disease associations on Fdataset_ms by LRTM algorithm.
+**Using NR for enhancing low-rank matrix**: Utilizing low-rank matrix completion for movie recommendations and multi-label learning. 
+```
+matlab -r demo_Movielens
 
-# Run LRTM on User's Own Data
-We provided instructions on implementing LRTM model with user's own data. One could directly run LRTM model in ```Demo_LRTM.m``` with custom data by the following instructions.
+matlab -r demo_Multi_Label 
+```
 
-**Step 1**: Prepare your own data and add into the ```Datasets``` folder
+**Knowledge distillation**: The performance of RKD-Topola, their teacher (baseline) and student (baseline) models. 
+```
+python run.py --help    
+python run_distill.py --help
 
-The required data includes drug-disease association matirx and similarity matrices, which are all saved by ```mat``` files.
+# Train a teacher embedding network of resnet50 (d=512)
+# using triplet loss (margin=0.2) with distance weighted sampling.
+python run.py --mode train \ 
+               --dataset cub200 \
+               --base resnet50 \
+               --sample distance \ 
+               --margin 0.2 \ 
+               --embedding_size 512 \
+               --save_dir teacher
 
-**Step 2**: Modify four lines in ```Demo_LRTM.m```
+# Evaluate the teacher embedding network
+python run.py --mode eval \ 
+               --dataset cub200 \
+               --base resnet50 \
+               --embedding_size 512 \
+               --load teacher/best.pth 
 
-You can find ```Fdataset_ms, A_DR, R, D``` in ```Demo_LRTM.m```. All you need to do is to replace them with your own data.
-
-
+# Distill the teacher to student embedding network
+python run_distill.py --dataset cub200 \
+                      --base resnet18 \
+                      --embedding_size 64 \
+                      --l2normalize false \
+                      --teacher_base resnet50 \
+                      --teacher_embedding_size 512 \
+                      --teacher_load teacher/best.pth \
+                      --dist_ratio 1  \
+                      --angle_ratio 2 \
+                      --save_dir student
+                      
+# Distill the trained model to student network
+python run.py --mode eval \ 
+               --dataset cub200 \
+               --base resnet18 \
+               --l2normalize false \
+               --embedding_size 64 \
+               --load student/best.pth 
+            
+```
 
 # Contact
 If you have any questions or suggestions with the code, please let us know. 
