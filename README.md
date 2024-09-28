@@ -37,14 +37,13 @@ You need to provide the “input.mat” file in the directory where “TopoLa.m�
 Examples are provided for seven key biological tasks, with details as follows:
 | Biological research       | Related tutorials                                        | Dataset                                                                                     |
 | :------------------------ | :------------------------------------------------------ | :------------------------------------------------------------------------------------------- |
-| Single-cell multi-batch integration      | [scGPT](https://github.com/kaizheng-academic/TopoLa/tree/main/Single_cell_multi_batch_integration)             | [link](https://drive.google.com/drive/folders/1_GROJTzXiAV8HB4imruOTk6PEGuNOcgB?usp=sharing) |
-| clustering scRNA-seq data | [link](https://github.com/kaizheng-academic/TopoLa/tree/main/Clustering_of_scRNA-seq_data/)   | [link](https://drive.google.com/drive/folders/1oWh_-ZRdhtoGQ2Fw24HP41FgLoomVo-y?usp=sharing) |
-| Single-cell multi-batch integration      | [link](https://github.com/kaizheng-academic/TopoLa/tree/main/Single_cell_multi_batch_integration)             | [link](https://drive.google.com/drive/folders/1_GROJTzXiAV8HB4imruOTk6PEGuNOcgB?usp=sharing) |
-| Single-cell multi-omic integration    | [link](https://github.com/kaizheng-academic/TopoLa/tree/main/Single_cell_multi_omics_integration)                 | [link](https://drive.google.com/drive/folders/1vf1ijfQSk7rGdDGpBntR5bi5g6gNt-Gx?usp=sharing) |
-| Rare cell identification      | [link](https://github.com/kaizheng-academic/TopoLa/tree/main/Rare_cell_identification)  | [link](https://drive.google.com/drive/folders/1kkug5C7NjvXIwQGGaGoqXTk_Lb_pDrBU?usp=sharing) |
-| Spatially informed clustering of ST    | [link](https://github.com/kaizheng-academic/TopoLa/tree/main/Spatially_informed_clustering_of_ST)         | [link](https://drive.google.com/drive/folders/1GcgXrd7apn6y4Ze_iSCncskX3UsWPY2r?usp=sharing) |
-| Vertical integration of multiple tissue slices  | [link](https://github.com/kaizheng-academic/TopoLa/tree/main/Vertical_integration_of_multiple_tissue_slices_of_ST)      | [link](https://drive.google.com/drive/folders/16A1DJ30PT6bodt4bWLa4hpS7gbWZQFBG?usp=sharing) |
-| Spatially informed clustering with the integration of scRNA-seq and ST | [IRIS](https://github.com/kaizheng-academic/TopoLa/tree/main/spatially_informed_clustering_with_the_integration_of_scRNA-seq_and_ST)  | [link](https://drive.google.com/drive/folders/1S-1AR65DF120kNFpEbWCvRHPhpkGK3kK?usp=sharing) |
+| clustering scRNA-seq data | [link](https://github.com/kaizheng-academic/TopoLa/tree/main/Clustering_of_scRNA-seq_data/)   | [link](https://drive.google.com/file/d/1k3AD1tdELfYM1xXs9jjhKJ6nb1pu71As/view?usp=share_link) |
+| Single-cell multi-batch integration      | [link](https://github.com/kaizheng-academic/TopoLa/tree/main/Single_cell_multi_batch_integration)             | [link](https://drive.google.com/file/d/1__se85Ru86rS7By4Zwvbel5VinEDPlmj/view?usp=share_link) |
+| Single-cell multi-omic integration    | [link](https://github.com/kaizheng-academic/TopoLa/tree/main/Single_cell_multi_omics_integration)                 | [link](https://drive.google.com/file/d/1eJL_wYf0y8QEsw1BmmeWQFuhmdKUPbQp/view?usp=share_link) |
+| Rare cell identification      | [link](https://github.com/kaizheng-academic/TopoLa/tree/main/Rare_cell_identification)  | [link](https://drive.google.com/file/d/1gN_ZoD14brgOKBwsmtyDlZ9hqXcR9s34/view?usp=share_link) |
+| Spatially informed clustering of ST    | [link](https://github.com/kaizheng-academic/TopoLa/tree/main/Spatially_informed_clustering_of_ST)         | [link](https://drive.google.com/file/d/1w1Ghtt7mq5qHvD6DQ-vJKLTKvZ-oxrpz/view?usp=sharing) |
+| Vertical integration of multiple tissue slices  | [link](https://github.com/kaizheng-academic/TopoLa/tree/main/Vertical_integration_of_multiple_tissue_slices_of_ST)      | [link](https://drive.google.com/file/d/1koWmf_QfzxDzqh0h5OMc3uXbvOYKGtOr/view?usp=share_link) |
+| Spatially informed clustering with the integration of scRNA-seq and ST | [link](https://github.com/kaizheng-academic/TopoLa/tree/main/spatially_informed_clustering_with_the_integration_of_scRNA-seq_and_ST)  | [link](https://drive.google.com/file/d/1I4LIoFcd1kSP4SGpsNAMPumnROuz9N6A/view?usp=share_link) |
 
 
 
