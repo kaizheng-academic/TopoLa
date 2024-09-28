@@ -26,7 +26,7 @@ The "TopoLa.m" has been run successfully on Operating systems:
 * Windows 10
 
 ## How to use `TopoLa`
--------------------
+
 To directly use TopoLa.m, you can run the following code:
 ```matlab
 matlab -r TopoLa
