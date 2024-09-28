@@ -33,4 +33,4 @@ How to use `IRIS`
 To directly use TopoLa.m, you can run the following code:
 ```matlab
 matlab -r demo
-```demo/)
+```
