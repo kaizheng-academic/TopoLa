@@ -7,38 +7,51 @@
 Recent advances in cellular research demonstrate that scRNA-seq characterizes cellular heterogeneity, while spatial transcriptomics reveals the spatial distribution of gene expression. Cell representation is the fundamental issue in the two fields. Here, we propose Topology-encoded Latent Hyperbolic Geometry (TopoLa), a computational framework enhancing cell representations by capturing fine-grained intercellular topological relationships. The framework introduces a new metric, TopoLa distance (TLd), which quantifies the geometric distance between cells within latent hyperbolic space, capturing the network’s topological structure more effectively. With this framework, the cell representation can be enhanced considerably by performing convolution on its neighboring cells. Performance evaluation across seven biological tasks, including scRNA-seq data clustering and spatial transcriptomics domain identification, shows that TopoLa significantly improves the performance of several state-of-the-art models. These results underscore the generalizability and robustness of TopoLa, establishing it as a valuable tool for advancing both biological discovery and computational methodologies.
 
 
-Installation
-------------
-You can install the released version of IRIS from Github with the following code, for more installation details or solutions that might solve related issues (specifically MacOS system) see the [link](https://yingma0107.github.io/IRIS/documentation/02_installation.html).
-
-## Dependencies 
-* R version >= 4.2.2.
-* Dependent R packages: Rcpp (>= 1.0.9), RcppArmadillo, SingleCellExperiment, SummarizedExperiment, methods, Matrix, MCMCpack, fields, wrMisc, RANN, stats, ggplot2, grDevices, reshape2
 
 
-``` r
-# install devtools if necessary
-install.packages('devtools')
+## Description 
+* The code "TopoLa.m" is part of the TopoLa framework, implemented using MATLAB. To run this code, you need to have MATLAB installed, with no specific version requirement.
+* The “Clustering_of_scRNA-seq_data” folder contains resources related to the task of clustering scRNA-seq data, including data, code, and tutorials.
+* The "Rare_cell_identification” folder contains resources related to the task of rare_cell_identification, including data, code, and tutorials.
+* The “Single_cell_multi_batch_integration” folder contains resources related to the task of single cell multi-batch integration, including data, code, and tutorials.
+* The “Single_cell_multi_omics_integration” folder contains resources related to the task of single cell multi-omics integration, including data, code, and tutorials.
+* The “Spatially_informed_clustering_of_ST” folder contains resources related to the task of spatially informed clustering of ST, including data, code, and tutorials.
+* The “Cspatially_informed_clustering_with_the_integration_of_scRNA-seq_and_ST” folder contains resources related to the task of spatially informed clustering with the integration of scRNA-seq and ST, ncluding data, code, code, and tutorials.
+* The “Vertical_integration_of_multiple_tissue_slices_of_ST” folder contains resources related to the task of spatially informed clustering with the integration of scRNA-seq and ST, including data, code, and tutorials.
 
-# install the IRIS package
-devtools::install_github('YingMa0107/IRIS')
 
-# load package
-library(IRIS)
-
-```
-The R package has been installed successfully on Operating systems: 
-* macOS Catalina 10.15, macOS Monterey 12.4
+The "TopoLa.m" has been run successfully on Operating systems: 
+* macOS Sonoma 14.1.2
 * Ubuntu 18.04.6 LTS
 * Windows 10
 
+## How to use `TopoLa`
+-------------------
+To directly use TopoLa.m, you can run the following code:
+```matlab
+matlab -r TopoLa
+```
+You need to provide the “input.mat” file in the directory where “TopoLa.m” is being run to store your matrix. After execution, the enhanced network will be exported as “output.mat” in the current directory. Click [here](https://drive.google.com/file/d/1Cl9BmLQS7zJ8SlkF1OxHuargU5fbUNFi/view?usp=share_link) to download an example of “input.mat”.
+
+
+Examples are provided for seven key biological tasks, with details as follows:
+| Biological research       | Related tutorials                                        | Dataset                                                                                     |
+| :------------------------ | :------------------------------------------------------ | :------------------------------------------------------------------------------------------- |
+| whole-human (recommended) | Pretrained on 33 million normal human cells.            | [link](https://drive.google.com/drive/folders/1oWh_-ZRdhtoGQ2Fw24HP41FgLoomVo-y?usp=sharing) |
+| continual pretrained      | For zero-shot cell embedding related tasks.             | [link](https://drive.google.com/drive/folders/1_GROJTzXiAV8HB4imruOTk6PEGuNOcgB?usp=sharing) |
+| brain                     | Pretrained on 13.2 million brain cells.                 | [link](https://drive.google.com/drive/folders/1vf1ijfQSk7rGdDGpBntR5bi5g6gNt-Gx?usp=sharing) |
+| blood                     | Pretrained on 10.3 million blood and bone marrow cells. | [link](https://drive.google.com/drive/folders/1kkug5C7NjvXIwQGGaGoqXTk_Lb_pDrBU?usp=sharing) |
+| heart                     | Pretrained on 1.8 million heart cells                   | [link](https://drive.google.com/drive/folders/1GcgXrd7apn6y4Ze_iSCncskX3UsWPY2r?usp=sharing) |
+| lung                      | Pretrained on 2.1 million lung cells                    | [link](https://drive.google.com/drive/folders/16A1DJ30PT6bodt4bWLa4hpS7gbWZQFBG?usp=sharing) |
+| kidney                    | Pretrained on 814 thousand kidney cells                 | [link](https://drive.google.com/drive/folders/1S-1AR65DF120kNFpEbWCvRHPhpkGK3kK?usp=sharing) |
+| pan-cancer                | Pretrained on 5.7 million cells of various cancer types | [link](https://drive.google.com/drive/folders/13QzLHilYUd0v3HTwa_9n4G4yEF-hdkqa?usp=sharing) |
+
+
 # Issues
-All feedback, bug reports and suggestions are warmly welcomed! Please make sure to raise issues with a detailed and reproducible example and also please provide the output of your sessionInfo() in R! 
+We warmly welcome all feedback, bug reports, and suggestions! When raising issues, please ensure they include a detailed and reproducible example for easier troubleshooting.
 
-How to cite `IRIS`
--------------------
-Ying Ma and Xiang Zhou. Integrative and Reference-Informed Spatial Domain Detection for Spatial Transcriptomics, Nature Methods 2024， [link](https://www.nature.com/articles/s41592-024-02284-9)
 
-How to use `IRIS`
--------------------
-Details in [Tutorial](https://yingma0107.github.io/IRIS/)
+
+
+
+
