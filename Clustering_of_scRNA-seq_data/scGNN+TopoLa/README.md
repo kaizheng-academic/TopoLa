@@ -24,8 +24,9 @@ mex jl_clust.cpp
 Once the compilation is complete, you can proceed with running the  “demo.m".
 
 
-## Dataseets 
-* matlab
+## Datasets 
+
+You need to click [here](https://github.com/kaizheng-academic/TopoLa/tree/main/Clustering_of_scRNA-seq_data/)  to download the relevant dataset.
 
 
 How to use `demo.m`
