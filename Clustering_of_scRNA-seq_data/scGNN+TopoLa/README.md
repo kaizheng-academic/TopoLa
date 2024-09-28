@@ -26,7 +26,7 @@ Once the compilation is complete, you can proceed with running the  “demo.m".
 
 ## Datasets 
 
-You need to click [here](https://github.com/kaizheng-academic/TopoLa/tree/main/Clustering_of_scRNA-seq_data/)  to download the relevant dataset.
+You need to click [here](https://github.com/kaizheng-academic/TopoLa/tree/main/Clustering_of_scRNA-seq_data/scGNN%2BTopoLa/data)  to download the relevant dataset.
 
 
 How to use `demo.m`
