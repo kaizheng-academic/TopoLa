@@ -12,7 +12,7 @@ Recent advances in cellular research demonstrate that scRNA-seq characterizes ce
 ## Description 
 * The code "TopoLa.m" is part of the TopoLa framework, implemented using MATLAB. To run this code, you need to have MATLAB installed, with no specific version requirement.
 * The “Clustering_of_scRNA-seq_data” folder contains resources related to the task of clustering scRNA-seq data, including data, code, and tutorials.
-* The "Rare_cell_identification” folder contains resources related to the task of rare_cell_identification, including data, code, and tutorials.
+* The "Rare_cell_identification” folder contains resources related to the task of rare cell identification, including data, code, and tutorials.
 * The “Single_cell_multi_batch_integration” folder contains resources related to the task of single cell multi-batch integration, including data, code, and tutorials.
 * The “Single_cell_multi_omics_integration” folder contains resources related to the task of single cell multi-omics integration, including data, code, and tutorials.
 * The “Spatially_informed_clustering_of_ST” folder contains resources related to the task of spatially informed clustering of ST, including data, code, and tutorials.
@@ -37,14 +37,15 @@ You need to provide the “input.mat” file in the directory where “TopoLa.m�
 Examples are provided for seven key biological tasks, with details as follows:
 | Biological research       | Related tutorials                                        | Dataset                                                                                     |
 | :------------------------ | :------------------------------------------------------ | :------------------------------------------------------------------------------------------- |
-| whole-human (recommended) | Pretrained on 33 million normal human cells.            | [link](https://drive.google.com/drive/folders/1oWh_-ZRdhtoGQ2Fw24HP41FgLoomVo-y?usp=sharing) |
-| continual pretrained      | For zero-shot cell embedding related tasks.             | [link](https://drive.google.com/drive/folders/1_GROJTzXiAV8HB4imruOTk6PEGuNOcgB?usp=sharing) |
-| brain                     | Pretrained on 13.2 million brain cells.                 | [link](https://drive.google.com/drive/folders/1vf1ijfQSk7rGdDGpBntR5bi5g6gNt-Gx?usp=sharing) |
-| blood                     | Pretrained on 10.3 million blood and bone marrow cells. | [link](https://drive.google.com/drive/folders/1kkug5C7NjvXIwQGGaGoqXTk_Lb_pDrBU?usp=sharing) |
-| heart                     | Pretrained on 1.8 million heart cells                   | [link](https://drive.google.com/drive/folders/1GcgXrd7apn6y4Ze_iSCncskX3UsWPY2r?usp=sharing) |
-| lung                      | Pretrained on 2.1 million lung cells                    | [link](https://drive.google.com/drive/folders/16A1DJ30PT6bodt4bWLa4hpS7gbWZQFBG?usp=sharing) |
-| kidney                    | Pretrained on 814 thousand kidney cells                 | [link](https://drive.google.com/drive/folders/1S-1AR65DF120kNFpEbWCvRHPhpkGK3kK?usp=sharing) |
-| pan-cancer                | Pretrained on 5.7 million cells of various cancer types | [link](https://drive.google.com/drive/folders/13QzLHilYUd0v3HTwa_9n4G4yEF-hdkqa?usp=sharing) |
+| clustering scRNA-seq data | Pretrained on 33 million normal human cells.            | [link](https://drive.google.com/drive/folders/1oWh_-ZRdhtoGQ2Fw24HP41FgLoomVo-y?usp=sharing) |
+| Single-cell multi-batch integration      | For zero-shot cell embedding related tasks.             | [link](https://drive.google.com/drive/folders/1_GROJTzXiAV8HB4imruOTk6PEGuNOcgB?usp=sharing) |
+| Single-cell multi-omic integration    | Pretrained on 13.2 million brain cells.                 | [link](https://drive.google.com/drive/folders/1vf1ijfQSk7rGdDGpBntR5bi5g6gNt-Gx?usp=sharing) |
+| Rare cell identification      | Pretrained on 10.3 million blood and bone marrow cells. | [link](https://drive.google.com/drive/folders/1kkug5C7NjvXIwQGGaGoqXTk_Lb_pDrBU?usp=sharing) |
+| Spatially informed clustering of ST    | Pretrained on 1.8 million heart cells                   | [link](https://drive.google.com/drive/folders/1GcgXrd7apn6y4Ze_iSCncskX3UsWPY2r?usp=sharing) |
+| Vertical integration of multiple tissue slices  | Pretrained on 2.1 million lung cells                    | [link](https://drive.google.com/drive/folders/16A1DJ30PT6bodt4bWLa4hpS7gbWZQFBG?usp=sharing) |
+| Spatially informed clustering with the integration of 
+scRNA-seq and ST | Pretrained on 814 thousand kidney cells                 | [link](https://drive.google.com/drive/folders/1S-1AR65DF120kNFpEbWCvRHPhpkGK3kK?usp=sharing) |
+
 
 
 # Issues
