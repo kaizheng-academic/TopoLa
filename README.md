@@ -31,7 +31,7 @@ To directly use TopoLa.m, you can run the following code:
 ```matlab
 matlab -r TopoLa
 ```
-You need to provide the “input.mat” file in the directory where “TopoLa.m” is being run to store your matrix. After execution, the enhanced network will be exported as “output.mat” in the current directory. Click [here](https://drive.google.com/file/d/1Cl9BmLQS7zJ8SlkF1OxHuargU5fbUNFi/view?usp=share_link) to download an example of “input.mat”.
+You need to provide the “input.mat” file (with the variable saved as “A”) in the directory where “TopoLa.m” is being run to store your matrix. After execution, the enhanced network will be exported as “output.mat” in the current directory. Click [here](https://drive.google.com/file/d/1Cl9BmLQS7zJ8SlkF1OxHuargU5fbUNFi/view?usp=share_link) to download an example of “input.mat”.
 
 
 Examples are provided for seven key biological tasks, with details as follows:
