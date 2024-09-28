@@ -9,7 +9,7 @@ Enhance cell representations of scGNN using the TopoLa framework. Firstly, the g
 Installation
 ------------
 
-Before running the “demmo.m”, you need to install MATLAB and compile the two `.cpp` files. Please follow these steps:
+Before running the “demo.m”, you need to install MATLAB and compile the two `.cpp` files. Please follow these steps:
 
 1. Install MATLAB.
 2. Compile the two `.cpp` files before running the Louvain method.
@@ -21,37 +21,16 @@ mex jl_mnew.cpp
 mex jl_clust.cpp
 ```
 
-Once the compilation is complete, you can proceed with running the  “demmo.m.
+Once the compilation is complete, you can proceed with running the  “demo.m".
 
 
 ## Dependencies 
-* R version >= 4.2.2.
-* Dependent R packages: Rcpp (>= 1.0.9), RcppArmadillo, SingleCellExperiment, SummarizedExperiment, methods, Matrix, MCMCpack, fields, wrMisc, RANN, stats, ggplot2, grDevices, reshape2
+* matlab
 
-
-``` r
-# install devtools if necessary
-install.packages('devtools')
-
-# install the IRIS package
-devtools::install_github('YingMa0107/IRIS')
-
-# load package
-library(IRIS)
-
-```
-The R package has been installed successfully on Operating systems: 
-* macOS Catalina 10.15, macOS Monterey 12.4
-* Ubuntu 18.04.6 LTS
-* Windows 10
-
-# Issues
-All feedback, bug reports and suggestions are warmly welcomed! Please make sure to raise issues with a detailed and reproducible example and also please provide the output of your sessionInfo() in R! 
-
-How to cite `IRIS`
--------------------
-Ying Ma and Xiang Zhou. Integrative and Reference-Informed Spatial Domain Detection for Spatial Transcriptomics, Nature Methods 2024， [link](https://www.nature.com/articles/s41592-024-02284-9)
 
 How to use `IRIS`
 -------------------
-Details in [Tutorial](https://yingma0107.github.io/IRIS/)
+To directly use TopoLa.m, you can run the following code:
+```matlab
+matlab -r demo
+```demo/)
