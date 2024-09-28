@@ -24,11 +24,11 @@ mex jl_clust.cpp
 Once the compilation is complete, you can proceed with running the  “demo.m".
 
 
-## Dependencies 
+## Dataseets 
 * matlab
 
 
-How to use `IRIS`
+How to use `demo.m`
 -------------------
 To directly use TopoLa.m, you can run the following code:
 ```matlab
