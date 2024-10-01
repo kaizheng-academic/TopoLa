@@ -9,7 +9,7 @@ Overview of GraphST+TopoLa for spatial informed clustering. The model begins wit
 Installation
 ------------
 
-You need to install graphST first. Click [here](https://drive.google.com/file/d/1w1Ghtt7mq5qHvD6DQ-vJKLTKvZ-oxrpz/view?usp=sharing)  for detailed installation instructions.
+You need to install graphST first. Click [here](https://github.com/JinmiaoChenLab/GraphST)  for detailed installation instructions.
 
 
 ## Datasets 
