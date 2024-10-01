@@ -595,7 +595,7 @@ def eval_testdata(
 
 from scgpt.utils import set_seed, eval_scib_metrics, load_pretrained
 # Load the best model
-best_model_path ="/root/autodl-tmp/scGPT/tutorials/save/dev_BMMC-Aug21-00-27/best_model.pt"
+best_model_path ="/root/autodl-tmp/scGPT/tutorials/save/BMMC/best_model.pt"
 model.load_state_dict(torch.load(best_model_path))
 
 # Evaluate on test data
