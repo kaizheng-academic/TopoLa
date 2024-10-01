@@ -19,7 +19,7 @@ You need to click [here](https://github.com/kaizheng-academic/TopoLa/tree/main/R
 
 How to use `demo.m`
 -------------------
-To directly use TopoLa.m, you can run the following code:
+To directly use demo.m, you can run the following code:
 ```python
 python demo.py
 ```

@@ -26,7 +26,7 @@ To use the pretrained model, follow the steps below:
 
 How to use `demo.m`
 -------------------
-To directly use TopoLa.m, you can run the following code:
+To directly use demo.m, you can run the following code:
 ```python
 python demo.py
 ```
