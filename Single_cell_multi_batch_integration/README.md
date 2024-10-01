@@ -24,9 +24,9 @@ To use the pretrained model, follow the steps below:
 5.	Move the extracted best_model.pt file into the `PBMC_raw` folder.
 
 
-How to use `demo.m`
+How to use `demo.py`
 -------------------
-To directly use demo.m, you can run the following code:
+To directly use demo.py, you can run the following code:
 ```python
 python demo.py
 ```
