@@ -17,7 +17,7 @@ You need to install SCA first. Click [here](https://github.com/bendemeo/shannonc
 You need to click [here](https://github.com/kaizheng-academic/TopoLa/tree/main/Rare_cell_identification/data)  to download the relevant dataset.
 
 
-How to use `demo.m`
+How to use `demo.py`
 -------------------
 To directly use demo.m, you can run the following code:
 ```python
