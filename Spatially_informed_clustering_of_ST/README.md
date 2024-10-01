@@ -9,17 +9,17 @@ Overview of GraphST+TopoLa for spatial informed clustering. The model begins wit
 Installation
 ------------
 
-You need to install graphST first. Click [here](https://github.com/bendemeo/shannonca?tab=readme-ov-file)  for detailed installation instructions.
+You need to install graphST first. Click [here](https://drive.google.com/file/d/1w1Ghtt7mq5qHvD6DQ-vJKLTKvZ-oxrpz/view?usp=sharing)  for detailed installation instructions.
 
 
 ## Datasets 
 
-You need to click [here](https://github.com/kaizheng-academic/TopoLa/tree/main/Rare_cell_identification/data)  to download the relevant dataset.
+You need to click [here](https://drive.google.com/file/d/1w1Ghtt7mq5qHvD6DQ-vJKLTKvZ-oxrpz/view?usp=sharing)  to download the relevant dataset.
 
 
-How to use `demo.m`
+How to run `graphST+TopoLa`
 -------------------
-To directly use TopoLa.m, you can run the following code:
-```python
-python demo.py
-```
+In our experiments, we evaluated the performance of scGPT+TopoLa with two clustering methods:
+
+1.	To view the tutorial for the Louvain algorithm, click [here](https://github.com/kaizheng-academic/TopoLa/tree/main/Spatially_informed_clustering_of_ST/Louvain).
+2.	To view the tutorial for the mclust algorithm, click [here](https://github.com/kaizheng-academic/TopoLa/tree/main/Spatially_informed_clustering_of_ST/mclust).
