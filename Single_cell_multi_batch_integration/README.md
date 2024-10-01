@@ -14,15 +14,15 @@ Installation
 3. Copy the following files: `Louvain_TopoLa.py`, `demo.py`, `scGPT_TopoLa.py`, and `utils_TopoLa.py` into the `tutorials` folder.
 
 
-## Datasets 
+## pretrained model 
 
 To use the pretrained model, follow the steps below:
 
-	1.	Download the pretrained model by clicking [here](https://drive.google.com/file/d/1__se85Ru86rS7By4Zwvbel5VinEDPlmj/view?usp=share_link).
-	2.	In the tutorials directory, create a new folder named save.
-	3.	Inside the save folder, create another folder called PBMC_raw.
-	4.	Unzip the downloaded PBMC.zip file.
-	5.	Move the extracted best_model.pt file into the PBMC_raw folder.
+1.	Download the pretrained model by clicking [here](https://drive.google.com/file/d/1__se85Ru86rS7By4Zwvbel5VinEDPlmj/view?usp=share_link).
+2.	In the tutorials directory, create a new folder named save.
+3.	Inside the save folder, create another folder called PBMC_raw.
+4.	Unzip the downloaded PBMC.zip file.
+5.	Move the extracted best_model.pt file into the PBMC_raw folder.
 
 
 How to use `demo.m`
