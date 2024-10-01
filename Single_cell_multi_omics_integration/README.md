@@ -10,7 +10,7 @@ Installation
 
 1. Install **scGPT** by following the instructions provided [here](https://github.com/bowang-lab/scGPT).
 2. Download the **scGPT** code by clicking [here](https://github.com/bowang-lab/scGPT/archive/refs/heads/main.zip), and then unzip the files.
-3. Copy the following files: `Louvain_TopoLa.py`, `demo.py`, `scGPT_TopoLa.py`, and `utils_TopoLa.py` into the `tutorials` folder.
+3. Copy the following files: `Louvain_TopoLa.py`, `demo.py`, and `utils_TopoLa.py` into the `tutorials` folder.
 
 
 ## pretrained model 
