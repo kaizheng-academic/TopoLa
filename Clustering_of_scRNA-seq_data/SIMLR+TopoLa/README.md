@@ -1,5 +1,5 @@
-# scGNN+TopoLa 
-## overview of scGNN+TopoLa 
+# SIMLR+TopoLa 
+## overview of SIMLR+TopoLa 
 
 <p align="center">
 <img src="https://github.com/kaizheng-academic/TopoLa/blob/main/src/SIMLR_TopoLa.png" width="1000" />
@@ -14,7 +14,7 @@ Before running the “demo.m”, you need to install MATLAB.
 
 ## Datasets 
 
-You need to click [here](https://github.com/kaizheng-academic/TopoLa/tree/main/Clustering_of_scRNA-seq_data/scGNN%2BTopoLa/data)  to download the relevant dataset.
+You need to click [here](https://github.com/kaizheng-academic/TopoLa/tree/main/Clustering_of_scRNA-seq_data/SIMLR%2BTopoLa/data)  to download the relevant dataset.
 
 
 How to use `demo.m`
