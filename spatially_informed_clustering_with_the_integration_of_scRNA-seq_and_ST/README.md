@@ -19,7 +19,7 @@ You need to click [here](https://drive.google.com/file/d/1I4LIoFcd1kSP4SGpsNAMPu
 
 How to use `demo.R`
 -------------------
-To directly use demo.m, you can run the following code:
+To directly use demo.R, you can run the following code:
 ```R
 Rscript demo.R
 ```
