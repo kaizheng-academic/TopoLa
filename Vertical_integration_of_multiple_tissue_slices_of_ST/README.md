@@ -15,6 +15,6 @@ You need to install graphST first. Click [here](https://github.com/JinmiaoChenLa
 ## Datasets 
 
 You need to click [here](https://drive.google.com/file/d/1koWmf_QfzxDzqh0h5OMc3uXbvOYKGtOr/view?usp=share_link)  to download the relevant dataset and place all the files into the `data` folder.
-.
+
 
 
