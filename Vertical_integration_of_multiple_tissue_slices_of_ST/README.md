@@ -14,7 +14,7 @@ You need to install graphST first. Click [here](https://github.com/JinmiaoChenLa
 
 ## Datasets 
 
-You need to click [here](https://drive.google.com/file/d/1koWmf_QfzxDzqh0h5OMc3uXbvOYKGtOr/view?usp=share_link)  to download the relevant dataset and place all the files into the `data` folder.
+You need to click [here](https://drive.google.com/file/d/1IEqq16XulvrirYL-oCGPbfRIzFz3OMS3/view?usp=share_link)  to download the relevant dataset and place “filtered_feature_bc_matrix.h5ad” and “metadata_sample1_section2.tsv” into the `data` folder. Additionally, place “GraphST_VerticalST_final.h5ad” in the root directory.
 
 
 
