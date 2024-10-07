@@ -31,18 +31,18 @@ SCA requires the following packages (python = 3.7.10):
 
 
 
-scikit-learn 
+scikit-learn = 1.0.2
 
-scipy
+scipy = 1.7.3
 
-numpy
+numpy = 1.21.6 
 
 matplotlib
 
-pandas
+pandas 
 
 seaborn
 
-scanpy
+scanpy = 1.7.3
 
 fbpca
