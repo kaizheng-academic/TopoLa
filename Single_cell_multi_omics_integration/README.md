@@ -22,6 +22,10 @@ To use the pretrained model, follow the steps below:
 3.	Inside the `save` folder, create another folder called `BMMC`.
 4.	Unzip the downloaded BMMC.zip file.
 5.	Move the extracted best_model.pt file into the `BMMC` folder.
+6.  Download the pretrained model by clicking [here](https://drive.google.com/file/d/1mMquE1C8iPUIOz8OwbMVYlhN27Qbgo9T/view?usp=share_link).
+7.	Inside the `save` folder, create another folder called `scGPT_human`.
+8.	Unzip the downloaded scGPT_human.zip file.
+9.	Move the extracted best_model.pt file into the `scGPT_human` folder.
 
 
 Datasets 
