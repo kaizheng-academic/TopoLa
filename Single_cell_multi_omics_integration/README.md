@@ -26,7 +26,7 @@ To use the pretrained model, follow the steps below:
 
 Datasets 
 -------------------
-You need to download "BMMC_processed.h5ad.zip" from this [link](https://drive.google.com/file/d/1eJL_wYf0y8QEsw1BmmeWQFuhmdKUPbQp/view?usp=share_link) and place all the files into the `data` folder.
+You need to download "BMMC_processed.h5ad.zip" from this [link](https://drive.google.com/file/d/1lTqCF5e5aiZhU1N7UUNbvhT-a870qdPk/view?usp=share_link) and place all the files into the `data` folder.
 
 
 How to use `demo.py`
