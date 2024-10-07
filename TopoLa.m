@@ -6,13 +6,13 @@ A = data.A;
 lambda = 0.1;  % You can modify this value as needed
 
 % Step 3: Call the TopoLa function to compute the matrix
-Matrix = TopoLa_functionm(A, lambda);
+Matrix = TopoLa_function(A, lambda);
 
 % Step 4: Save the resulting matrix to output.mat
 save('output.mat', 'Matrix');
 
 % The TopoLa function
-function [Matrix] = TopoLa_functionm(A, lambda)
+function [Matrix] = TopoLa_function(A, lambda)
 
     % Perform operations as defined in the TopoLa function
     [n, m] = size(A);
