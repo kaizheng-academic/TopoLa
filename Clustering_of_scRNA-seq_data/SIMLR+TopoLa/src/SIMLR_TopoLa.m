@@ -1,4 +1,4 @@
-function [y, S_raw,S_TopoLa, ydata,alphaK,timeOurs,converge,LF] = SIMLR(X, c, k, ifimpute,normalize,lambda_TopoLa)
+function [y, S_raw,S_TopoLa, ydata,alphaK,timeOurs,converge,LF] = SIMLR_TopoLa(X, c, k, ifimpute,normalize,lambda_TopoLa)
 
 %%%
 if nargin==2
@@ -64,7 +64,7 @@ S0 = Network_Diffusion(S0,k);
 S0 = NE_dn(S0,'ave');
 S= (S0 + S0')/2;
 S_raw=S;
-S = TopoLa(S,lambda_TopoLa);
+S = TopoLa_cal(S,lambda_TopoLa);
 S_TopoLa=S;
 D0 = diag(sum(S,order));
 L0= D0-S;

@@ -1,4 +1,4 @@
-function [Matrix] = TopoLa_self(A,p)
+function [Matrix] = TopoLa_cal(A,p)
 
     [U,S,V] = svd(A,'econ');
     s = diag(S);
