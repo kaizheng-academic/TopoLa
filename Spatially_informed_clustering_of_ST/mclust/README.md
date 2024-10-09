@@ -1,7 +1,7 @@
 Installation
 ------------
 
-You need to install graphST first. Click [here](https://github.com/bendemeo/shannonca?tab=readme-ov-file)  for detailed installation instructions.
+You need to install graphST first. Click [here](https://github.com/JinmiaoChenLab/GraphST)  for detailed installation instructions.
 
 
 
