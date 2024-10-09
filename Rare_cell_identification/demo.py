@@ -7,7 +7,7 @@ import warnings
 from sklearn.metrics import f1_score
 from collections import Counter
 import time
-import src.Leiden_TopoLa
+import src.Leiden_TopoLa as Leiden
 
 warnings.filterwarnings("ignore")
 
@@ -85,7 +85,7 @@ def process_dataset(dataName, dir='./data'):
     h = 0.05
     alpha = 1e-3
 
-    sc.tl.leiden(adata, TopoLa_bool=True, TopoLa_alpha=alpha)
+    Leiden(adata, TopoLa_bool=True, TopoLa_alpha=alpha)
     TopoLa_res = list(adata.obs['leiden'])
     
     y_rare, y_pred_TopoLa = calculate_rare_cell_types(y, TopoLa_res, h, n_cells)
