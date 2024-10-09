@@ -26,7 +26,7 @@ Once the compilation is complete, you can proceed with running the  “demo.m".
 
 ## Datasets 
 
-You need to click [here](https://drive.google.com/file/d/1k3AD1tdELfYM1xXs9jjhKJ6nb1pu71As/view?usp=share_link)  to download the relevant dataset and click [here](https://drive.google.com/file/d/1C8juR13mdTXpXhqfIzG29IQBdinROE2_/view?usp=share_link)  to download the result_scGNN.
+You need to click [here](https://drive.google.com/file/d/1k3AD1tdELfYM1xXs9jjhKJ6nb1pu71As/view?usp=share_link)  to download the relevant dataset and click [here](https://drive.google.com/file/d/1JsN3IXCn8KzEZGuwMNALIBVdxSeybAI7/view?usp=share_link)  to download the result_scGNN.
 
 
 How to use `demo.m`
