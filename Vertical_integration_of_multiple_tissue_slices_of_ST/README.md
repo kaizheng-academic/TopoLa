@@ -1,25 +1,19 @@
-# SIMLR+TopoLa 
-## overview of SIMLR+TopoLa 
+## graphST+TopoLa for multi-batch integration
+
 
 <p align="center">
-<img src="https://github.com/kaizheng-academic/TopoLa/blob/main/src/SIMLR_TopoLa.png" width="1000" />
+<img src="https://github.com/kaizheng-academic/TopoLa/blob/main/src/graphST_TopoLa_batch.png" width="1000" />
 </p>
-Enhance cell representations of SIMLR using the TopoLa framework. The pipeline begins with a gene expression matrix as input. SIMLR+TopoLa calculates multiple kernels to learn intercellular similarities. This similarity matrix is then input into the TopoLa framework, refining cellular similarities. These similarities are subsequently processed through dimensionality reduction techniques to generate cellular representations. Finally, cell clustering is performed using the affinity propagation algorithm.
+Overview of GraphST+TopoLa for multi-batch integration. First, hematoxylin and eosin (H&E) stained images from two or more samples are aligned to establish spatial correspondence across samples. A shared neighborhood graph is constructed, accounting for both intra- and inter-sample neighbors, which enables feature smoothing across the entire dataset. Second, GraphST+TopoLa corrects batch effects by smoothing features across samples to generate cell representations. Third, these cell representations are input into the TopoLa framework to obtain enhanced representations for further batch effect correction.
 
 Installation
 ------------
 
-Before running the “demo.m”, you need to install MATLAB.
+You need to install graphST first. Click [here](https://github.com/bendemeo/shannonca?tab=readme-ov-file)  for detailed installation instructions.
 
 
 ## Datasets 
 
-You need to click [here](https://github.com/kaizheng-academic/TopoLa/tree/main/Clustering_of_scRNA-seq_data/SIMLR%2BTopoLa/data)  to download the relevant dataset.
+You need to click [here](https://drive.google.com/file/d/1kWJk51UGe2QyLd7tOf_rBvwlcx7iXIRt/view?usp=sharing)  to download the relevant dataset.
 
 
-How to use `demo.m`
--------------------
-To directly use demo.m, you can run the following code:
-```matlab
-matlab -r demo
-```
