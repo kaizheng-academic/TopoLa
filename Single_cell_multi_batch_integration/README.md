@@ -18,12 +18,12 @@ Installation
 
 To use the pretrained model, follow the steps below:
 
-1.	Download the pretrained model by clicking [here](https://drive.google.com/file/d/1__se85Ru86rS7By4Zwvbel5VinEDPlmj/view?usp=share_link).
+1.	Download the pretrained model 1 by clicking [here](https://drive.google.com/file/d/1__se85Ru86rS7By4Zwvbel5VinEDPlmj/view?usp=share_link).
 2.	In the `tutorials` folder, create a new folder named `save`.
 3.	Inside the `save` folder, create another folder called `PBMC_raw`.
 4.	Unzip the downloaded PBMC.zip file.
 5.	Move the extracted best_model.pt file into the `PBMC_raw` folder.
-6.  Download the pretrained model by clicking [here](https://drive.google.com/file/d/1mMquE1C8iPUIOz8OwbMVYlhN27Qbgo9T/view?usp=share_link).
+6.  Download the pretrained model 2 by clicking [here](https://drive.google.com/file/d/1mMquE1C8iPUIOz8OwbMVYlhN27Qbgo9T/view?usp=share_link).
 7.	Inside the `save` folder, create another folder called `scGPT_human`.
 8.	Unzip the downloaded scGPT_human.zip file.
 9.	Move the extracted best_model.pt file into the `scGPT_human` folder.
